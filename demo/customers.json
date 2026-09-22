@@ -1,0 +1,68 @@
+[
+  {
+    "id": "shop-customer-01",
+    "name": "한지민",
+    "order_number": "SHOP-EX-1001",
+    "product_name": "베이직 코튼 티셔츠",
+    "option": "아이보리 / M",
+    "order_status": "paid",
+    "paid_amount_krw": 24000,
+    "days_since_order": 1,
+    "days_since_delivery": null
+  },
+  {
+    "id": "shop-customer-02",
+    "name": "김서윤",
+    "order_number": "SHOP-EX-1002",
+    "product_name": "와이드 데님 팬츠",
+    "option": "연청 / M",
+    "order_status": "delivered",
+    "paid_amount_krw": 49000,
+    "days_since_order": 8,
+    "days_since_delivery": 3
+  },
+  {
+    "id": "shop-customer-03",
+    "name": "박준호",
+    "order_number": "SHOP-EX-1003",
+    "product_name": "소프트 라운드 가디건",
+    "option": "그레이 / L",
+    "order_status": "shipped",
+    "paid_amount_krw": 59000,
+    "days_since_order": 4,
+    "days_since_delivery": null
+  },
+  {
+    "id": "shop-customer-04",
+    "name": "이하은",
+    "order_number": "SHOP-EX-1004",
+    "product_name": "골지 긴팔 티셔츠",
+    "option": "블랙 / S",
+    "order_status": "delivered",
+    "paid_amount_krw": 29000,
+    "days_since_order": 7,
+    "days_since_delivery": 2
+  },
+  {
+    "id": "shop-customer-05",
+    "name": "정유진",
+    "order_number": "SHOP-EX-1005",
+    "product_name": "루즈핏 코튼 셔츠",
+    "option": "스카이블루 / M",
+    "order_status": "preparing",
+    "paid_amount_krw": 42000,
+    "days_since_order": 2,
+    "days_since_delivery": null
+  },
+  {
+    "id": "shop-customer-06",
+    "name": "최도윤",
+    "order_number": "SHOP-EX-1006",
+    "product_name": "울 브이넥 니트",
+    "option": "오트밀 / L",
+    "order_status": "cancelled",
+    "paid_amount_krw": 69000,
+    "days_since_order": 3,
+    "days_since_delivery": null
+  }
+]

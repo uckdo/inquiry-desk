@@ -1,0 +1,62 @@
+# Secrets and machine-local credentials
+.env
+.env.*
+!.env.example
+gemini-key*
+secrets/
+secrets.*
+credentials.json
+credentials.*.json
+*.pem
+*.key
+*.p12
+*.pfx
+.npmrc
+.pypirc
+.netrc
+
+# Runtime inquiries, customer records, vectors and database sidecars
+/data/
+*.sqlite
+*.sqlite3
+*.sqlite-*
+*.sqlite3-*
+*.db
+*.db-*
+
+# Dependencies and generated builds; commit the lockfiles instead
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+node_modules/
+dist/
+build/
+
+# Test output, model transcripts and local design/review notes
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage*
+htmlcov/
+coverage/
+test-results/
+playwright-report/
+/artifacts/
+/evaluation*.json
+/.impeccable/
+/PRODUCT.md
+/DESIGN.md
+/VERIFICATION.md
+*.log
+
+# Editor, OS and temporary files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+*.tmp
+*.bak
+*.swp
