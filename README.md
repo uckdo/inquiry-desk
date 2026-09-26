@@ -65,14 +65,5 @@ demo/       가상 FAQ·주문·문의와 평가 문항
 tests/      API·RAG·자동 작성·브라우저 테스트
 ```
 
-## 테스트
-
-```sh
-uv run pytest -q
-uv run python -m desk.evaluate
-```
-
-첫 번째 명령은 API·RAG·자동 작성 테스트, 두 번째는 평가 문항 30개의 형식과 참조 검사입니다. 테스트에는 모의 모델 응답을 사용합니다.
-
 - [데모 데이터](demo/README.md)
 - [REST API](CONTRACT.md)
